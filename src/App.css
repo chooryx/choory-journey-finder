@@ -2,14 +2,24 @@
 #root {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
+  color: black;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.card-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
 }
